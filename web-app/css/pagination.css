@@ -1,0 +1,15 @@
+.paginateButtons{
+	background:#fff url(../images/skin/shadow.jpg) 
+	bottom repeat-x;
+	border-top:0;
+	color:#666;
+	font-size:14px;
+	overflow:hidden;padding:2px 3px;}
+.paginateButtons a{
+	background:#fff;
+	border-color:#ccc #aaa #aaa #ccc;
+	color:#752224;
+	margin:0 1px;
+	padding:2px 3px;}
+.paginateButtons span{
+	padding:2px 3px;}

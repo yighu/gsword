@@ -1,0 +1,164 @@
+<link rel="stylesheet" type="text/css" href="iBD.css"/>
+<!-- fieldset legend="search area" -->
+  <table id="searchBox" class ='dialog'>
+	<tr class ='title'>
+		<td colspan ='12' >Online Bible Study Tools
+		<td>
+	</tr>
+    <tr >
+		<td class ="labelright" >
+			Search Word(s):
+		</td>
+		<td>
+			<input type="text" id="keyword"/>
+		</td>
+		<td class ="labelright">
+			Search  Bible:
+		<!-- a href="javascript:searchBible();">Search Bible:</a -->
+		</td>
+		<td>
+			<g:select name="books" id="books" class ="books" noSelection='["${version}":"${version}"]'
+			  from="${mainbooks}" onchange="searchBible();"/>
+		</td>
+		<td>
+			<button type="button" id="searchButton" onclick="searchBible();">Lookup:</button>
+		</td>
+
+		<td  class ="labelright">
+			Parallel Bibles:
+		</td>
+		<td>
+			<g:select name="parallels" class = "parallels" noSelection="['':'']"
+                from="${books}"/>
+		</td>
+		<td >
+			<button onclick="pick_parallel();">&nbsp;+&nbsp;</button>
+			<button onclick="unpick_parallel();">&nbsp;-&nbsp;</button>
+		</td>
+		<td class ='labelright'>
+			Choose Book: 
+		</td>
+		<td>
+			<g:select name="bibles" class ='bibles' noSelection="['':'']"
+              from="${bibles}"
+
+              onchange="${remoteFunction(
+           controller:'gbook',
+           action:'getChaps',
+           params:'\'bible=\' + escape(this.value)',
+           onComplete:'updateChapters(e)')}"/>
+		</td>
+		<td class ="labelright" >
+			One year Bible:
+		</td>
+		<td>
+			<g:select name="dailyword" class ="dailyword" noSelection="['':'']"
+                from="${books}" onchange="showword(this.value); " />
+		</td>
+      
+    </tr>
+    <tr>
+		<td  class ="labelright">
+			Dictionary:
+		</td>
+		<td>
+			<!-- button type="button" id="searchButtondic" onclick="searchDictionary();">Search Dictionary:</button -->
+			<g:select name="dictionaries" id="dictionaries"  class ='dictionaries' noSelection="['':'']"
+              from="${dictionaries}" onchange="searchDictionary(); "/>
+		</td>&nbsp;	  
+		  
+		<td  class ="labelright">
+			Verses:
+		</td>
+		<td>
+			<input type="text" id="reference" value="${ref}"/>
+		</td>
+		<td>
+			<button type="button" id="passageButton" onclick="locate();">Lookup:</button>
+        </td>
+		<td  class ="labelright">
+			Commentaries:
+		</td>
+		<td >
+			<g:select name="commentaries"  class ='commentaries' noSelection="['':'']"
+                from="${commentaries}"
+				onchange="${remoteFunction(
+		           controller:'gbook',
+		           action:'xindex',
+		           params:'\'type=\' + escape(this.value)',
+		           onComplete:'updateForm(e)')}"/>
+		</td>
+		<td >
+			<button onclick="pick_commentary();">&nbsp;+&nbsp;</button>
+			<button onclick="unpick_commentary();">&nbsp;-&nbsp;</button>
+				<!--	a href="javascript:pick_commentary();">+</a>
+					<a href="javascript:unpick_commentary();">-</a -->
+        
+		</td>
+        <td   class ="labelright">
+			Choose Chapter:
+		</td>
+		<td>
+			<g:select name="chapters" class = 'chapters' noSelection="['':'']"
+              from="${chapters}"
+				onchange="updateReference(\$(\'bibles\').value+\' \'+ escape(this.value));"/>
+		</td>
+		<td  class ='dialog' colspan =2>
+				<modalbox:createLink controller="gbook" action="adsearch" title="Advanced Search" width="400">Advanced Search</modalbox:createLink>
+        </td>
+    </tr>
+</table>
+<table>
+	<tr>
+		<td   colspan =4 height =10px></td>
+	</tr>
+    <tr>
+		<td  class ="labelright">
+			Total:&nbsp;<input type="text" id="total" name="total" value="${total}" size=5 readonly/>
+		</td>
+		<td>
+			&nbsp;
+			<button type="button" id="prev" onclick="prev();"><</button>&nbsp;
+			<button type="button" id="next" onclick="nextstep();">></button>
+		</td>
+    </tr>
+
+</table>
+<!-- /fieldset -->
+
+<table>
+  <tr> 
+  <td width="10" valign="top">
+    
+    Books
+     <g:if test="${bibles}">
+            <g:each in="${bibles}" status ="i" var="b">
+            <a href="bible://${b}"  id="b${b}" onClick='return setChaps(&quot;${b}&quot;);'>
+             ${b}
+           </a>
+            </g:each>
+
+             </g:if>
+  </td>
+  <td valign="top">
+      <table>
+   <tr><td id="xchaps" name="xch" valign="top">
+      Chapters  <div id="chaps" name="chaps" />
+      </td>
+   
+  <tr>
+    <td id="display" width="80%" valign="top">
+
+      <div id="liveform">
+
+      ${results}
+      </div>
+    </td>
+          <td valign="top" width="20%">
+    <div id="display_dict" name="display_dict"/>
+
+  </td>
+  </tr>
+</table>
+    </td>
+</table>

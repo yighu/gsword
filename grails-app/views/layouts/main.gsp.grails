@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title><g:layoutTitle default="Grails" /></title>
+    <gui:resources components="['menu']"/>
+
+    <style type="text/css">
+    div.yuimenu {
+
+        position: absolute;
+        visibility: hidden;
+
+    }
+    div.yuimenu .bd {
+
+        zoom: normal;
+    }
+    .yui-skin-sam .yuimenubar {
+        border: 1px solid #808080;
+        font-size: 93%;
+        line-height: 2;
+    }
+    </style>
+    <g:layoutHead />
+</head>
+<body class="yui-skin-sam">
+<div id="myMenubar_div" class="yuimenubar"> 
+    <div class="bd"> 
+        <ul class="first-of-type"><li id="gui_a19ef94ea22aee7da0c2ba605b5a133e" class="yuimenuitem first-of-type"> 
+    <a class="yuimenuitemlabel" href="/gsword"><g:message code="home"/></a> 
+</li> 
+ 
+            <li id="gui_c1288d6d43244e0a128c29ff83559b83" class="yuimenubaritem "> 
+ 
+                <!--<a class="yuimenubaritemlabel" href="#sub_gui_c1288d6d43244e0a128c29ff83559b83">--> 
+                <a class="yuimenuitemlabel" href="#sub_gui_c1288d6d43244e0a128c29ff83559b83"> 
+                   <g:message code="bible"/> 
+                </a> 
+ 
+                <!-- A submenu --> 
+ 
+                <div id="sub_gui_c1288d6d43244e0a128c29ff83559b83" class="yuimenu"> 
+                    <div class="bd"> 
+                        <ul class="first-of-type"> 
+                            <li id="gui_47f4a8b9550a417ea39020233683536c" class="yuimenuitem first-of-type"> 
+    <a class="yuimenuitemlabel" href="/gsword/bible/read"><g:message code="readbible"/></a> 
+</li> 
+<li id="gui_840d6b1afcec9f82e7a9453e94fa8c12" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/bible/search"><g:message code="searchthebible"/></a> 
+</li> 
+                        </ul> 
+                    </div> 
+                </div> 
+ 
+            </li> 
+        
+<li id="gui_933469cae11f1287fe40e5dc1a379529" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/c"><g:message code="classics"/></a> 
+</li> 
+<li id="gui_cce77b7e8c87b1409a79c08d9dbc213a" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/bible/cmnt"><g:message code="commentary"/></a> 
+</li> 
+<li id="gui_136adf98ae0a499ced8e73c7a636437f" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/searchdics"><g:message code="dictionarylookup"/></a> 
+</li> 
+ 
+            <li id="gui_cf9c6e0201bb6c292b68c81dffe25a0c" class="yuimenubaritem "> 
+ 
+                <!--<a class="yuimenubaritemlabel" href="#sub_gui_cf9c6e0201bb6c292b68c81dffe25a0c">--> 
+                <a class="yuimenuitemlabel" href="#sub_gui_cf9c6e0201bb6c292b68c81dffe25a0c"> 
+                   <g:message code="feed"/> 
+                </a> 
+ 
+                <!-- A submenu --> 
+ 
+                <div id="sub_gui_cf9c6e0201bb6c292b68c81dffe25a0c" class="yuimenu"> 
+                    <div class="bd"> 
+                        <ul class="first-of-type"> 
+                            <li id="gui_829ccf88aea5b1b1b1a2da2f63ef9133" class="yuimenuitem first-of-type"> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/oneyearbible"><g:message code="oneyearbible"/></a> 
+</li> 
+<li id="gui_05daef4b969bcea337d0061b51d105c0" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/feeds"><g:message code="meditate"/></a> 
+</li> 
+<li id="gui_16cf3bd136dea07fc03cfb4a6206fbe4" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/feeds"><g:message code="memorize"/></a> 
+</li> 
+                        </ul> 
+                    </div> 
+                </div> 
+ 
+            </li> 
+        
+<li id="gui_2fbb5c523de47a1c44caa4b5087e1699" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/v"><g:message code="gsword"/></a> 
+</li> 
+<li id="gui_a530e4b5df14f928edbe15293ab8d986" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="http://bible.ccim.org"><g:message code="oldtool"/></a> 
+</li> 
+ 
+            <li id="gui_dd42c90d5ef3b156f89e6f6e66d48949" class="yuimenubaritem "> 
+ 
+                <!--<a class="yuimenubaritemlabel" href="#sub_gui_dd42c90d5ef3b156f89e6f6e66d48949">--> 
+                <a class="yuimenuitemlabel" href="#sub_gui_dd42c90d5ef3b156f89e6f6e66d48949"> 
+                    <g:message code="changelanguage"/>
+                </a> 
+ 
+                <!-- A submenu --> 
+ 
+                <div id="sub_gui_dd42c90d5ef3b156f89e6f6e66d48949" class="yuimenu"> 
+                    <div class="bd"> 
+                        <ul class="first-of-type"> 
+                            <li id="gui_924c5760847b2a5fa1408d681ee2a4fd" class="yuimenuitem first-of-type"> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/language_change?lang=zh_CN"><g:message code="locale.language.zh"/></a> 
+</li> 
+<li id="gui_2aac4d5786f471a3fda04ccde0c4bb5c" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/gbook/language_change?lang=en_US"><g:message code="locale.language.en"/></a> 
+</li> 
+                        </ul> 
+                    </div> 
+                </div> 
+ 
+            </li> 
+        
+<li id="gui_78ca6773b7f3597e1cad3e6ca3386f4e" class="yuimenuitem "> 
+    <a class="yuimenuitemlabel" href="/gsword/help/help.xhtml"><g:message code="help"/></a> 
+</li></ul> 
+    </div> 
+</div> 
+<script> 
+    YAHOO.util.Event.onDOMReady(function() {
+        GRAILSUI.myMenubar = new YAHOO.widget.MenuBar("myMenubar_div", {});
+        GRAILSUI.myMenubar.render(document.body);
+    });
+</script> 
+    <div style="padding: 0px 00px">
+        <g:layoutBody />
+    </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8971382-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

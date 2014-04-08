@@ -1,0 +1,45 @@
+dataSource {
+  pooled = true
+  driverClassName = "org.postgresql.Driver"
+  username = "postgres"
+  password = "light123"
+}
+hibernate {
+  cache.use_second_level_cache = true
+  cache.use_query_cache = true
+  cache.provider_class = 'org.hibernate.cache.EhCacheProvider'
+}
+// environment specific settings
+environments {
+  development {
+    dataSource {
+
+      dbCreate = "update"
+      username = "postgres"
+      password = ""
+      driverClassName = "org.postgresql.Driver"
+      url = "jdbc:postgresql://localhost:5432/sword"
+    }
+  }
+  test {
+    dataSource {
+      dbCreate = "update"
+      username = "postgres"
+      password = "light123"
+      driverClassName = "org.postgresql.Driver"
+
+      url = "jdbc:postgresql://rock.ccim.org:5432/sword"
+    }
+  }
+  production {
+    dataSource {
+      dbCreate = "update"
+      username = "postgres"
+      password = "light123"
+      driverClassName = "org.postgresql.Driver"
+      url = "jdbc:postgresql://rock.ccim.org:5432/sword"
+
+      //    url = "jdbc:hsqldb:file:prodDb;shutdown=true"
+    }
+  }
+}

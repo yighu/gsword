@@ -1,0 +1,2 @@
+this is the roolt of sword repository. When a new package is downloaded, unzip it into this directory
+/Users/yiguanghu/Library/Application Support/Sword

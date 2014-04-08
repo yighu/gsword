@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+在密室里
+	</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.1.0.min.css" />
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.1.0.min.js"></script>
+		 <script type="text/javascript">                                         
+			 function loaddata(){
+				 var i=Math.floor((Math.random()*233)+1);
+				 $('#scripture1').load('bible/theattributeofgod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*233)+1);
+				 $('#scripture2').load('bible/theattributeofgod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*342)+1);
+				 $('#scripture3').load('bible/workofgod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*342)+1);
+				 $('#scripture4').load('bible/workofgod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*516)+1);
+				 $('#scripture5').load('bible/myrelationtogod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*516)+1);
+				 $('#scripture6').load('bible/myrelationtogod/s'+i+'.txt');
+				 i=Math.floor((Math.random()*370)+1);
+				 $('#scripture7').load('bible/thecharacteriwanttocultivate/s'+i+'.txt');
+				 i=Math.floor((Math.random()*370)+1);
+				 $('#scripture8').load('bible/thecharacteriwanttocultivate/s'+i+'.txt');
+				 i=Math.floor((Math.random()*203)+1);
+				 $('#scripture9').load('bible/myrelationshiptoothers/s'+i+'.txt');
+				 i=Math.floor((Math.random()*203)+1);
+				 $('#scripture10').load('bible/myrelationshiptoothers/s'+i+'.txt');
+				 /*
+			 $.ajax({
+					   url: "test.txt",
+				     success: function(data) {
+			alert('Load was performed.'+data);
+					         $('#txt').html(data);
+						       }
+						       });
+						       */
+			 }
+
+		  </script>               
+		</head>
+<body onload="loaddata()" >
+<div data-role="page" data-theme="b" align='center' >
+<div data-role="header">
+<h3 >在密室里</h3>
+</div>
+<h3 >神的属性</h3>
+<div data-role="content" >	
+<div id="scripture1" >Scripture</div>
+<br/>
+<div id="scripture2" >Scripture</div>
+</div>
+<h4 >停下来思想有关神的位格，能力，和完美。</h4>
+<hr/>
+<h3 >
+神的工作
+</h3>
+<div data-role="content">	
+<div id="scripture3" >Scripture</div>
+<br/>
+<div id="scripture4" >Scripture</div>
+</div>
+<h4 >
+停下来思想神奇妙工作的伟大。
+</h4>
+<hr/>
+<h3 >
+我同神的关系
+</h3>
+<div data-role="content">	
+<div id="scripture5" >Scripture</div>
+<br/>
+<div id="scripture6" >Scripture</div>
+</div>
+ <h4 >
+停下来为你在基督耶稣里所享受的关系感谢神。
+</h4>
+<hr/>
+<h3 >
+我要培养的品格
+</h3>
+<div data-role="content">	
+<div id="scripture7" >Scripture</div>
+<br/>
+<div id="scripture8" >Scripture</div>
+</div>
+<h4 >
+停下来请求神赐给你恩典成长敬虔的品格。
+</h4>
+<hr/>
+<h3 >
+我同别人的关系
+</h3>
+
+<div data-role="content">	
+<div id="scripture9" >Scripture</div>
+<br/>
+<div id="scripture10" >Scripture</div>
+</div>
+
+<h4 >
+停下来反思你同他人的关系，并将他们交托给神。
+</h4>
+<a href="javascript:loaddata();" data-role="button" data-icon="arrow-r" data-mini="true">下一页</a>
+</div>
+</body>
+</html>

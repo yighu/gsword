@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/i18n-gettext-0.85/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/cometd-0.1.5/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/yui-2.7.0.1/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/navigation-1.1/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/modalbox-0.3/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="Grails" name="Grails" removed="false">
+          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins">
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/cometd-0.1.5/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/cometd-0.1.5/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/test/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/i18n-gettext-0.85/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/i18n-gettext-0.85/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/mail-0.7.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/mail-0.7.1/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/mail-0.7.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/modalbox-0.3/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/navigation-1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/navigation-1.1/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/tomcat-1.2-M3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/yui-2.7.0.1/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/yui-2.7.0.1/src/groovy" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/conf/hibernate" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Grails 1.2-M3" level="project" />
+    <orderEntry type="module-library">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/tomcat-1.2-M3/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/mail-0.7.1/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/i18n-gettext-0.85/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/lib" />
+          <root url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/cometd-0.1.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/cometd-0.1.5/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/feeds-1.4/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/i18n-gettext-0.85/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/mail-0.7.1/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/quartz-0.4.1/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/richui-0.6/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Users/Yiguang/.grails/1.2-M3/projects/gsword/plugins/tomcat-1.2-M3/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

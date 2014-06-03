@@ -1,4 +1,5 @@
 class BootStrap {
+	def eventBus
      def init = { servletContext ->
 /*
  def vertx = Vertx.newVertx()
@@ -11,6 +12,10 @@ sock << buff
  
 httpServer.listen(8585)
 */
+eventBus.onEvent('ghost', { msg -> 
+println "Message incoming: $msg"
+eventBus.sendMessage('ghost', [message: 'echo msg $msg'])
+})
      }
      def destroy = {
      }

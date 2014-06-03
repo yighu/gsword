@@ -4,8 +4,10 @@
     <link type="text/css" href="/gsword/jm/menu.css" rel="stylesheet" />
     <link type="text/css" href="/gsword/css/pagination.css" rel="stylesheet" />
     <link type="text/css" href="/gsword/css/iBD.css" rel="stylesheet" />
-    <script type="text/javascript" src="/gsword/jm/jquery.js"></script>
-    <script type="text/javascript" src="/gsword/jm/menu.js"></script>
+
+<script type="text/javascript" src="/gsword/jm/menu.js"></script>
+<r:require module="application"/>
+<r:require module="jquery-ui"/>
 <r:layoutResources/>
 </head>
 <body>

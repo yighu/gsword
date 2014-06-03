@@ -1,9 +1,10 @@
 modules = {
     application {
         resource url:'js/application.js'
+        resource url:'js/lightalert.js'
     }
     menu {
-	dependsOn 'jquery'
+	dependsOn 'jquery-1.10.2'
         resource url:'jm/menu.js'
         resource url:'jm/menu.css'
 
